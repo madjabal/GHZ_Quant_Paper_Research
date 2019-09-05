@@ -1,0 +1,104 @@
+﻿Acronym,Paper’s author(s),"Date, Journal",Definition of the characteristic-based anomaly variable
+absacc,"Bandyopadhyay, Huang & Wirjanto","2010, WP",Absolute value of acc.
+acc,Sloan,"1996, TAR",Annual income before extraordinary items (ib) minus operating cash flows (oancf) divided by average total assets (at); if oancf is missing then set to change in act - change in che - change in lct + change in dlc + change in txp-dp.
+aeavol,"Lerman, Livnat & Mendenhall","2007, WP",Average daily trading volume (vol) for 3 days around earnings announcement minus average daily volume for 1-month ending 2 weeks before earnings announcement divided by 1-month average daily volume. Earnings announcement day from Compustat quarterly (rdq).
+age,"Jiang, Lee & Zhang","2005, RAS",Number of years since first Compustat coverage.
+agr,"Cooper, Gulen & Schill","2008, JF",Annual percent change in total assets (at).
+baspread,Amihud & Mendelson,"1989, JF",Monthly average of daily bid-ask spread divided by average of daily spread.
+beta,Fama & MacBeth,"1973, JPE",Estimated market beta from weekly returns and equal weighted market returns for 3 years ending month t-1 with at least 52 weeks of returns.
+betasq,Fama & MacBeth,"1973, JPE",Market beta squared.
+bm,"Rosenberg, Reid & Lanstein","1985, JPM",Book value of equity (ceq) divided by end of fiscal-year-end market capitalization.
+bm_ia,"Asness, Porter & Stevens","2000, WP",Industry adjusted book-to-market ratio.
+cash ,Palazzo,"2012, JFE",Cash and cash equivalents divided by average total assets.
+cashdebt,Ou & Penman,"1989, JAE",Earnings before depreciation and extraordinary items (ib+dp) divided by avg. total liabilities (lt).
+cashpr,Chandrashekar & Rao,"2009, WP",Fiscal year end market capitalization plus long term debt (dltt) minus total assets (at) divided by cash and equivalents (che).
+cfp ,"Desai, Rajgopal & Venkatachalam","2004, TAR",Operating cash flows divided by fiscal-year-end market capitalization.
+cfp_ia,"Asness, Porter & Stevens","2000, WP",Industry adjusted cfp.
+chatoia,Soliman,"2008, TAR",2-digit SIC - fiscal-year mean adjusted change in sales (sale) divided by average total assets (at).
+chcsho,Pontiff & Woodgate,"2008, JF",Annual percent change in shares outstanding (csho).
+chempia,"Asness, Porter & Stevens","1994, WP",Industry-adjusted change in number of employees.
+chfeps,"Hawkins, Chamberlin & Daniel","1984, FAJ",Mean analyst forecast in month prior to fiscal period end date from I/B/E/S summary file minus same mean forecast for prior fiscal period using annual earnings forecasts.
+chinv,Thomas & Zhang,"2002, RAS",Change in inventory (inv) scaled by average total assets (at).
+chmom,Gettleman & Marks,"2006, WP",Cumulative returns from months t-6 to t-1 minus months t-12 to t-7.
+chnanalyst,Scherbina,"2007, WP",Change in nanalyst from month t-3 to month t.
+chpmia,Soliman,"2008, TAR",2-digit SIC - fiscal-year mean adjusted change in income before extraordinary items (ib) divided by sales (sale).
+chtx,Thomas & Zhang,"2011, JAR",Percent change in total taxes (txtq) from quarter t-4 to t.
+cinvest,"Titman, Wei & Xie","2004, JFQA","Change over one quarter in net PP&E (ppentq) divided by sales (saleq) - average of this variable for prior 3 quarters; if saleq = 0, then scale by 0.01."
+convind,Valta,"2016, JFQA",An indicator equal to 1 if company has convertible debt obligations.
+currat,Ou & Penman,"1989, JAE",Current assets / current liabilities.
+depr,Holthausen & Larcker,"1992, JAE",Depreciation divided by PP&E.
+disp,"Diether, Malloy & Scherbina","2002, JF","Standard deviation of analyst forecasts in month prior to fiscal period end date divided by the absolute value of the mean forecast; if meanest = 0, then scalar set to 1. Forecast data from I/B/E/S summary files."
+divi,"Michaely, Thaler & Womack","1995, JF",An indicator variable equal to 1 if company pays dividends but did not in prior year.
+divo,"Michaely, Thaler & Womack","1995, JF",An indicator variable equal to 1 if company does not pay dividend but did in prior year.
+dolvol,"Chordia, Subrahmanyam & Anshuman","2001, JFE",Natural log of trading volume times price per share from month t-2.
+dy,Litzenberger & Ramaswamy,"1982, JF",Total dividends (dvt) divided by market capitalization at fiscal year-end.
+ear,"Kishore, Brandt, Santa-Clara & Venkatachalam","2008, WP",Sum of daily returns in three days around earnings announcement. Earnings announcement from Compustat quarterly file (rdq).
+egr,"Richardson, Sloan, Soliman & Tuna","2005, JAE",Annual percent change in book value of equity (ceq).
+ep,Basu,"1977, JF",Annual income before extraordinary items (ib) divided by end of fiscal year market cap.
+fgr5yr,Bauman & Dowen,"1988, FAJ",Most recently available analyst forecasted 5-year growth.
+gma,Novy-Marx,"2013, JFE",Revenues (revt) minus cost of goods sold (cogs) divided by lagged total assets (at).
+grCAPX,Anderson & Garcia-Feijoo,"2006, JF",Percent change in capital expenditures from year t-2 to year t.
+grltnoa,"Fairfield, Whisenant & Yohn","2003, TAR",Growth in long term net operating assets.
+herf,Hou & Robinson,"2006, JF",2-digit SIC - fiscal-year sales concentration (sum of squared percent of sales in industry for each company).
+hire,"Bazdresch, Belo & Lin","2014, JPE",Percent change in number of employees (emp).
+idiovol,"Ali, Hwang & Trombley","2003, JFE",Standard deviation of residuals of weekly returns on weekly equal weighted market returns for 3 years prior to month end.
+ill,Amihud,"2002, JFM",Average of daily (absolute return / dollar volume).
+indmom,Moskowitz & Grinblatt,"1999, JF",Equal weighted average industry 12-month returns.
+invest,Chen & Zhang,"2010, JF","Annual change in gross property, plant, and equipment (ppegt) + annual change in inventories (invt) all scaled by lagged total assets (at)."
+IPO,"Loughran, Ritter & Ritter","1995, JF",An indicator variable equal to 1 if first year available on CRSP monthly stock file.
+lev,Bhandari,"1988, JF",Total liabilities (lt) divided by fiscal year end market capitalization.
+lgr,"Richardson, Sloan, Soliman & Tuna","2005, JAE",Annual percent change in total liabilities (lt).
+maxret,"Bali, Cakici & Whitelaw","2011, JFE",Maximum daily return from returns during calendar month t-1.
+mom12m,Jegadeesh,"1990, JF",11-month cumulative returns ending one month before month end.
+mom1m,Jegadeesh & Titman,"1993, JF",1-month cumulative return.
+mom36m,Jegadeesh & Titman,"1993, JF",Cumulative returns from months t-36 to t-13.
+mom6m,Jegadeesh & Titman,"1993, JF",5-month cumulative returns ending one month before month end.
+ms,Mohanram,"2005, RAS",Sum of 8 indicator variables for fundamental performance.
+mve,Banz,"1981, JFE",Natural log of market capitalization at end of month t-1.
+mve_ia,"Asness, Porter & Stevens","2000, WP",2-digit SIC industry-adjusted fiscal year-end market capitalization.
+nanalyst,"Elgers, Lo & Pfeiffer","2001, TAR",Number of analyst forecasts from most recently available I/B/E/S summary files in month prior to month of portfolio formation.  nanalyst set to zero if not covered in I/B/E/S summary file.
+nincr,"Barth, Elliott & Finn","1999, JAR",Number of consecutive quarters (up to eight quarters) with an increase in earnings (ibq) over same quarter in the prior year.
+operprof,Fama & French,"2015, JFE",Revenue minus cost of goods sold - SG&A expense - interest expense divided by lagged common shareholders' equity.
+orgcap,Eisfeldt & Papanikolaou,"2013, JF",Capitalized SG&A expenses.
+pchcapx_ia,Abarbanell & Bushee,"1998, TAR",2-digit SIC - fiscal-year mean adjusted percent change in capital expenditures (capx).
+pchcurrat,Ou & Penman,"1989, JAE",Percent change in currat.
+pchdepr,Holthausen & Larcker,"1992, JAE",Percent change in depr.
+pchgm_pchsale,Abarbanell & Bushee,"1998, TAR",Percent change in gross margin (sale-cogs) minus percent change in sales (sale).
+pchquick,Ou & Penman,"1989, JAE",Percent change in quick.
+pchsale_pchinvt,Abarbanell & Bushee,"1998, TAR",Annual percent change in sales (sale) minus annual percent change in inventory (invt).
+pchsale_pchrect,Abarbanell & Bushee,"1998, TAR",Annual percent change in sales (sale) minus annual percent change in receivables (rect).
+pchsale_pchxsga,Abarbanell & Bushee,"1998, TAR",Annual percent change in sales (sale) minus annual percent change in SG&A (xsga).
+pchsaleinv,Ou & Penman,"1989, JAE",Percent change in saleinv.
+pctacc,"Hafzalla, Lundholm & Van Winkle","2011, TAR",Same as acc except that the numerator is divided by the absolute value of ib; if ib = 0 then ib set to 0.01 for denominator.
+pricedelay,Hou & Moskowitz,"2005, RFS",The proportion of variation in weekly returns for 36 months ending in month t explained by 4 lags of weekly market returns incremental to contemporaneous market return.
+ps,Piotroski,"2000, JAR",Sum of 9 indicator variables to form fundamental health score.
+quick,Ou & Penman,"1989, JAE",(current assets - inventory) / current liabilities.
+rd,"Eberhart, Maxwell & Siddique","2004, JF",An indicator variable equal to 1 if R&D expense as a percentage of total assets has an increase greater than 5%.
+rd_mve,"Guo, Lev & Shi","2006, JBFA",R&D expense divided by end-of-fiscal-year market capitalization.
+rd_sale,"Guo, Lev & Shi","2006, JBFA",R&D expense divided by sales (xrd/sale).
+realestate,Tuzel,"2010, RFS",Buildings and capitalized leases divided by gross PP&E.
+retvol,"Ang, Hodrick, Xing & Zhang","2006, JF",Standard deviation of daily returns from month t-1.
+roaq,"Balakrishnan, Bartov & Faurel","2010, JAE",Income before extraordinary items (ibq) divided by one quarter lagged total assets (atq).
+roavol,"Francis, LaFond, Olsson & Schipper","2004, TAR",Standard deviaiton for 16 quarters of income before extraordinary items (ibq) divided by average total assets (atq).
+roeq,"Hou, Xue & Zhang","2014, RFS",Earnings before extraordinary items divided by lagged common shareholders' equity.
+roic,Brown & Rowe,"2007, WP",Annual earnings before interest and taxes (ebit) minus non-operating income (nopi) divided by non-cash enterprise value (ceq+lt-che).
+rsup,Kama,"2009, JBFA",Sales from quarter t minus sales from quarter t-4 (saleq) divided by fiscal-quarter-end market capitalization (cshoq * prccq).
+salecash,Ou & Penman,"1989, JAE",Annual sales divided by cash and cash equivalents.
+saleinv,Ou & Penman,"1989, JAE",Annual sales divided by total inventory.
+salerec,Ou & Penman,"1989, JAE",Annual sales divided by accounts receivable.
+secured ,Valta,"2016, JFQA",Total liability scaled secured debt.
+securedind,Valta,"2016, JFQA",An indicator equal to 1 if company has secured debt obligations.
+sfe,"Elgers, Lo & Pfeiffer","2001, TAR",Analysts mean annual earnings forecast for nearest upcoming fiscal year from most recent month available prior to month of portfolio formation from I/B/E/S summary files scaled by price per share at fiscal quarter end.
+sgr,"Lakonishok, Shleifer & Vishny","1994, JF",Annual percent change in sales (sale).
+sin,Hong & Kacperczyk,"2009, JFE","An indicator variable equal to 1 if a company's primary industry classification is in smoke or tobacco, beer or alcohol, or gaming."
+SP,"Barbee, Mukherji, & Raines","1996, FAJ",Annual revenue (sale) divided by fiscal-year-end market capitalization.
+std_dolvol,"Chordia, Subrahmanyam & Anshuman","2001, JFE",Monthly standard deviation of daily dollar trading volume.
+std_turn,"Chordia, Subrahmanyam, &Anshuman","2001, JFE",Monthly standard deviation of daily share turnover.
+stdacc,"Bandyopadhyay, Huang & Wirjanto","2010, WP","Standard deviation for 16 quarters of accruals (acc measured with quarterly Compustat) scaled by sales; if saleq = 0, then scale by 0.01."
+stdcf,Huang,"2009, JEF","Standard deviation for 16 quarters of cash flows divided by sales (saleq); if saleq = 0, then scale by 0.01. Cash flows defined as ibq minus quarterly accruals."
+sue,"Rendelman, Jones & Latane","1982, JFE","Unexpected quarterly earnings divided by fiscal-quarter-end market cap.  Unexpected earnings is I/B/E/S actual earnings minus median forecasted earnings if available, else it is the seasonally differenced quarterly earnings before extraordinary items from Compustat quarterly file."
+tang,Almeida & Campello,"2007, RFS",Cash holdings + 0.715 × receivables + 0.547 × inventory + 0.535 × PPE/
+,,,total assets.
+tb,Lev & Nissim,"2004, TAR","Tax income, calculated from current tax expense divided by maximum federal tax rate, divided by income before extraordinary items."
+turn,"Datar, Naik & Radcliffe","1998, JFM",Average monthly trading volume for most recent 3 months scaled by number of shares outstanding in current month.
+zerotrade,Liu,"2006, JFE",Turnover weighted number of zero trading days for most recent 1 month.
